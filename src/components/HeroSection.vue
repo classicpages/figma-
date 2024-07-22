@@ -1,16 +1,15 @@
 <template>
-    <section>
+    <section class="page">
     <div class="welcome">
-    <h1> Welcome To <span>Shopping Site</span></h1>
+    <h1><span class="fast">Fast</span> Food Delivery</h1>
    </div>
    <div class="heel">
-    <p class="text">Slingback fabric heels. Thin wraparound ankle starp. <br>
-     Squared heel and toe. Pointed toes.
-      Padded insole with <br> geometrical design. </p>
+    <p class="text">Sed ut perspiciatis
+         unde omnis iste natus sit voluptatem accusantium doloremque laudantium </p>
     </div>
     
     <div class="us">
-        <button class="btn">Contact Us</button>
+        <button class="btn">Order Now</button>
         <a class="watch" href="#">watch video</a>
     </div>
 </section>
@@ -28,13 +27,24 @@ nav {
     padding-top: 0;
 }
 
+.fast {
+ font-family: Poppins;
+ font-size: 125px;
+ font-weight: 700;
+ line-height: 118.5px;
+ letter-spacing: -0.035em;
+ text-align: left;
+ color: #FF7E00;
+
+}
+
 .watch {
     margin-left: 20px;
 
 }
 
 .page {
-    background-color: #F2F2F2;
+    
 }
 
 .us {
@@ -43,20 +53,20 @@ nav {
 }
 
 .btn {
-    background-color: #D82CD1;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
-    border-radius: 6px;
-    color: #fff;
-    font-size: 14px;
+    background-color: #2F2F2F;
+    width: 130px;
+    height: 70px;
+    top: 49px;
+    left: 93px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    
 }
 
 .welcome {
-    text-align: center;
+    text-align: left;
     margin-top: 200px;
-    margin-left: 250px;
+    margin-left: 25px;
     width: 820px;
     height: 160px;
     top: 276px;
@@ -68,12 +78,9 @@ nav {
 }
 
 .heel {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.text {
-    font-size: 15px;
+    text-align: left;
+    margin-top: 80px;
 
 }
+
 </style>

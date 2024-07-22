@@ -1,12 +1,12 @@
 <template>
     <nav class="flex">
-        <p class="site">Foo</p>
+        <p class="site"> <img src="/src/assets/chef-hat (2) 1.png"> Foo</p>
             <div class="flex navbar">
               <div class="navbars">Home</div>
               <div class="navbar">Menu</div>
               <div class="navbar">Contact</div>
               <div class="navbar">Shop</div>
-            <div class="text"><input type="search" placeholder="search"></div> 
+            <div class="texts"><input type="search" placeholder="search"></div> 
             </div>
     </nav>
 </template>
@@ -44,8 +44,10 @@ font-size: 13px;
 margin-left: 30px;
 }
 
-.text {
+.texts {
     margin-left: 30px;
+}
 
+.img {
 }
 </style>
