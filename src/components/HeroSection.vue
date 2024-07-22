@@ -43,10 +43,6 @@ nav {
 
 }
 
-.page {
-    
-}
-
 .us {
     margin-top: 30px;
     margin-left: 600px;

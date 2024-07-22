@@ -48,6 +48,4 @@ margin-left: 30px;
     margin-left: 30px;
 }
 
-.img {
-}
 </style>
