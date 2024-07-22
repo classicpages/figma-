@@ -37,17 +37,14 @@ nav {
  color: #FF7E00;
 
 }
-
 .watch {
     margin-left: 20px;
-
 }
 
 .us {
     margin-top: 30px;
     margin-left: 600px;
 }
-
 .btn {
     background-color: #2F2F2F;
     width: 130px;
@@ -56,7 +53,6 @@ nav {
     left: 93px;
     border-radius: 4px 0px 0px 0px;
     opacity: 0px;
-    
 }
 
 .welcome {
@@ -76,7 +72,6 @@ nav {
 .heel {
     text-align: left;
     margin-top: 80px;
-
 }
 
 </style>
