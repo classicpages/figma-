@@ -5,14 +5,25 @@
    </div>
    <div class="heel">
     <p class="text">Sed ut perspiciatis
-         unde omnis iste natus sit voluptatem accusantium doloremque laudantium </p>
+         unde omnis iste natus sit <br> voluptatem accusantium doloremque laudantium </p>
     </div>
     
     <div class="us">
         <button class="btn">Order Now</button>
         <a class="watch" href="#">watch video</a>
     </div>
-</section>
+
+    <div class="star">
+        <img src="/src/assets/emojione_star.png">
+        <img src="/src/assets/emojione_star.png">
+        <img src="/src/assets/emojione_star.png">
+        <img src="/src/assets/emojione_star.png">
+        <img src="/src/assets/emojione_star.png">
+    </div>
+    <p>5 star rating
+    based on 1788 reviews</p>
+
+    </section>
 </template>
 
 <script setup>
@@ -29,7 +40,7 @@ nav {
 
 .fast {
  font-family: Poppins;
- font-size: 125px;
+ font-size: 120px;
  font-weight: 700;
  line-height: 118.5px;
  letter-spacing: -0.035em;
@@ -72,6 +83,17 @@ nav {
 .heel {
     text-align: left;
     margin-top: 80px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.54px;
+     text-align: left;
+    color:#909090;
 }
+
+.page {
+    
+}
+
 
 </style>

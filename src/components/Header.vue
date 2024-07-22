@@ -6,7 +6,8 @@
               <div class="navbar">Menu</div>
               <div class="navbar">Contact</div>
               <div class="navbar">Shop</div>
-            <div class="texts"><input type="search" placeholder="search"></div> 
+            <div class="texts"><img src="/src/assets/Vector.png"><input class="search" type="search"
+                 placeholder="search"><img src="/src/assets/Shopping cart.png"></div> 
             </div>
     </nav>
 </template>
@@ -16,12 +17,23 @@
 width: 100px;
 height: 58px;
 text-align: right;
-margin-left: 70px;
+margin-left: 50px;
 display: flex;
+margin-top: 20px;
+}
+
+.search {
+    margin-top: 20px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    padding-right: 5px;
 }
 
 .navbars {
 margin-left: 500px;
+margin-top: 20px;
+
 }
 .site {
 color: #D82CD1;
