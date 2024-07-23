@@ -1,48 +1,56 @@
 <template>
-    <nav class="flex">
-        <p class="site"> <img src="/src/assets/chef-hat (2) 1.png"> Foo</p>
-            <div class="flex navbar">
-              <div class="navbars">Home</div>
-              <div class="navbar">Menu</div>
-              <div class="navbar">Contact</div>
-              <div class="navbar">Shop</div>
-            <div class="texts"><img src="/src/assets/Vector.png"><input class="search" type="search"
-                 placeholder="search"><img src="/src/assets/Shopping cart.png"></div> 
-            </div>
-    </nav>
+    <section class="page">
+        <nav>
+            <p class="site"><img src="/src/assets/chef-hat (2) 1.png"> Foo</p>
+                <div class="navbar">
+                  <div class="navbars">Home</div>
+                  <div class="navbar">Menu</div>
+                  <div class="navbar">Contact</div>
+                  <div class="navbar">Shop</div>
+    
+                  <div class="search-container">
+                    <input type="text" placeholder="Search...">
+                </div>
+                </div>
+                <HeroSection />
+        </nav>
+    </section>
+   
 </template>
-
+<script setup>
+import HeroSection from '@/components/HeroSection.vue'
+</script>
 <style scoped>
+
 .navbar {
-width: 100px;
+width: 80px;
 height: 58px;
 text-align: right;
-margin-left: 50px;
 display: flex;
 margin-top: 20px;
+color: #000;
+margin-left: 15px;
 }
 
-.search {
+.search-container {
     margin-top: 20px;
-    padding-top: 8px;
-    padding-left: 5px;
-    padding-bottom: 8px;
-    padding-right: 5px;
+    margin-left: 20px;
 }
 
 .navbars {
-margin-left: 500px;
+margin-left: 250px;
 margin-top: 20px;
+color: #000;
 
 }
 .site {
-color: #D82CD1;
+color: #000;
 margin-top: 20px;
-margin-left: 20px;
 font-size: 15px;
-font-weight: 700;
+font-weight: 500;
 float: left;
 }
+
 
 .btn {
 background-color: #D82CD1;
@@ -59,5 +67,12 @@ margin-left: 30px;
 .texts {
     margin-left: 30px;
 }
+
+
+.page {
+    background-color: #fff;
+}
+
+
 
 </style>

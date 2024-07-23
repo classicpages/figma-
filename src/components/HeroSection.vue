@@ -1,14 +1,15 @@
 <template>
     <section class="page">
+        <img class="img" src="/src/assets/17372 [Converted] 1.png" alt="">
     <div class="welcome">
-    <h1><span class="fast">Fast</span> Food Delivery</h1>
+    <h1><span class="fast">Fast</span> <span class="food">Food Delivery</span></h1>
    </div>
    <div class="heel">
-    <p class="text">Sed ut perspiciatis
+    <p>Sed ut perspiciatis
          unde omnis iste natus sit <br> voluptatem accusantium doloremque laudantium </p>
     </div>
     
-    <div class="us">
+    <div>
         <button class="btn">Order Now</button>
         <a class="watch" href="#">watch video</a>
     </div>
@@ -20,8 +21,8 @@
         <img src="/src/assets/emojione_star.png">
         <img src="/src/assets/emojione_star.png">
     </div>
-    <p>5 star rating
-    based on 1788 reviews</p>
+    <p class="star">5 star rating </p>
+    <p class="stars">based on 1788 reviews</p>
 
     </section>
 </template>
@@ -38,6 +39,18 @@ nav {
     padding-top: 0;
 }
 
+.star {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.stars {
+ font-size: 17px;
+ font-weight: 300;
+ color: #000;
+}
+
 .fast {
  font-family: Poppins;
  font-size: 120px;
@@ -46,29 +59,41 @@ nav {
  letter-spacing: -0.035em;
  text-align: left;
  color: #FF7E00;
+}
+
+.food {
+    color: #000;
+    font-family: Poppins;
+font-size: 52px;
+font-weight: 700;
+line-height: 49.3px;
+text-align: left;
 
 }
+
+
 .watch {
     margin-left: 20px;
+    color:#000;
 }
 
 .us {
     margin-top: 30px;
-    margin-left: 600px;
+
 }
 .btn {
-    background-color: #2F2F2F;
-    width: 130px;
-    height: 70px;
-    top: 49px;
-    left: 93px;
-    border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
+    background-color:#0e0d0d;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
 }
 
 .welcome {
     text-align: left;
-    margin-top: 200px;
+    margin-top: 80px;
     margin-left: 25px;
     width: 820px;
     height: 160px;
@@ -82,17 +107,25 @@ nav {
 
 .heel {
     text-align: left;
-    margin-top: 80px;
+    margin-top: 60px;
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 30.54px;
-     text-align: left;
+    text-align: left;
     color:#909090;
 }
 
-.page {
-    
+
+.img {
+    width: 440px;
+    height: 400px;
+    top: 1219;
+    float: right;
+  }
+
+  .page {
+    background-color: #fff;
 }
 
 
