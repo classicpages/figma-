@@ -1,5 +1,5 @@
 <template>
-    <section class="page">
+    <section >
         <img class="img" src="/src/assets/17372 [Converted] 1.png" alt="">
     <div class="welcome">
     <h1><span class="fast">Fast</span> <span class="food">Food Delivery</span></h1>
@@ -47,7 +47,7 @@ nav {
 .stars {
  font-size: 17px;
  font-weight: 300;
- color: #000;
+ color: #fff;
 }
 
 .fast {
@@ -61,7 +61,7 @@ nav {
 }
 
 .food {
-    color: #000;
+    color: #fff;
     font-family: Poppins;
 font-size: 70px;
 font-weight: 700;
@@ -73,7 +73,7 @@ text-align: left;
 
 .watch {
     margin-left: 20px;
-    color:#000;
+    color:#fff;
 }
 
 .us {

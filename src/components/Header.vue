@@ -1,6 +1,6 @@
 <template>
     <section>
-        <nav class="page">
+        <nav >
             <p class="site"><img src="/src/assets/chef-hat (2) 1.png"> Foo</p>
                 <div class="navbar">
                   <div class="navbars">Home</div>
@@ -18,7 +18,6 @@
        
 </template>
 <script setup>
-import HeroSection from '@/components/HeroSection.vue'
 
 </script>
 <style scoped>
@@ -29,7 +28,7 @@ height: 58px;
 text-align: right;
 display: flex;
 margin-top: 20px;
-color: #000;
+color: #fff;
 margin-left: 15px;
 font-weight: 400;
 font-size: 14px;
@@ -43,12 +42,12 @@ font-size: 14px;
 .navbars {
 margin-left: 250px;
 margin-top: 20px;
-color: #000;
+color: #fff;
 font-weight: 400;
 }
 
 .site {
-color: #000;
+color: #fff;
 margin-top: 20px;
 font-size: 20px;
 font-weight: 700;
