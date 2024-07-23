@@ -1,6 +1,6 @@
 <template>
-    <section class="page">
-        <nav>
+    <section>
+        <nav class="page">
             <p class="site"><img src="/src/assets/chef-hat (2) 1.png"> Foo</p>
                 <div class="navbar">
                   <div class="navbars">Home</div>
@@ -13,12 +13,13 @@
                 </div>
                 </div>
                 <HeroSection />
-        </nav>
+        </nav>   
     </section>
-   
+       
 </template>
 <script setup>
 import HeroSection from '@/components/HeroSection.vue'
+
 </script>
 <style scoped>
 
@@ -30,6 +31,8 @@ display: flex;
 margin-top: 20px;
 color: #000;
 margin-left: 15px;
+font-weight: 400;
+font-size: 14px;
 }
 
 .search-container {
@@ -41,13 +44,14 @@ margin-left: 15px;
 margin-left: 250px;
 margin-top: 20px;
 color: #000;
-
+font-weight: 400;
 }
+
 .site {
 color: #000;
 margin-top: 20px;
-font-size: 15px;
-font-weight: 500;
+font-size: 20px;
+font-weight: 700;
 float: left;
 }
 
@@ -68,11 +72,8 @@ margin-left: 30px;
     margin-left: 30px;
 }
 
-
 .page {
     background-color: #fff;
 }
-
-
 
 </style>

@@ -30,7 +30,6 @@
 <script setup>
 </script>
 
-
 <style scoped>
 nav {
     text-align: right;
@@ -53,7 +52,7 @@ nav {
 
 .fast {
  font-family: Poppins;
- font-size: 120px;
+ font-size: 100px;
  font-weight: 700;
  line-height: 118.5px;
  letter-spacing: -0.035em;
@@ -64,7 +63,7 @@ nav {
 .food {
     color: #000;
     font-family: Poppins;
-font-size: 52px;
+font-size: 70px;
 font-weight: 700;
 line-height: 49.3px;
 text-align: left;
@@ -79,6 +78,10 @@ text-align: left;
 
 .us {
     margin-top: 30px;
+
+  .page {
+    background-color: #fff;
+}
 
 }
 .btn {
@@ -124,9 +127,10 @@ text-align: left;
     float: right;
   }
 
-  .page {
+.page {
     background-color: #fff;
 }
+
 
 
 </style>
