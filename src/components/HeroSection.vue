@@ -82,7 +82,7 @@
   
   .watch {
     margin-left: 20px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
   }
   
@@ -105,7 +105,7 @@
   .stars {
     font-size: 1rem;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     margin-top: 5px;
   }
   
