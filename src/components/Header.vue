@@ -4,6 +4,7 @@
       <div class="site">
         <img src="/src/assets/chef-hat (2) 1.png" alt="Logo"> Foo
       </div>
+      
       <div class="navbar-burger" @click="toggleMenu">
         <span></span>
         <span></span>
@@ -21,7 +22,7 @@
     </nav>
     <HeroSection />
   </header>
-</template>
+</template>s
 
 <script setup>
 import { ref } from 'vue';
