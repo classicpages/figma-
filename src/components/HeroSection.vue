@@ -9,8 +9,11 @@
       </div>
       <div class="actions">
         <button class="btn">Order Now</button>
+        <img src="/src/assets/Group 2.png" alt="Arrow Image" class="arrow-img">
         <a class="watch" href="#">Watch Video</a>
-      </div>
+    </div>
+    
+    
       <div class="star-rating">
         <img src="/src/assets/emojione_star.png" alt="Star">
         <img src="/src/assets/emojione_star.png" alt="Star">
@@ -30,7 +33,7 @@
   .hero-section {
     text-align: center;
     padding: 20px;
-    background-color: #fff; /* White background color */
+    background-color:  #FCFBF7;
   }
 
   
@@ -66,11 +69,15 @@
     color: #909090;
     margin: 20px 0;
   }
-  
   .actions {
-    margin: 20px 0;
-  }
-  
+    display: flex;
+    align-items: center;
+}
+
+.actions .arrow-img {
+    margin: 0 5px; /* Adjust the spacing as needed */
+}
+
   .btn {
     background-color: #0e0d0d;
     border-radius: 20px;
@@ -118,12 +125,12 @@
     .fast {
       font-size: 1.5rem;
     }
-  
     .food {
       font-size: 1.2rem;
     }
   
     .heel {
+    
       font-size: 0.875rem;
       line-height: 1.5;
     }
@@ -133,4 +140,5 @@
     }
   }
   </style>
+  
   
