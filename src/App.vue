@@ -13,5 +13,8 @@ import HeroSection from '@/components/HeroSection.vue'
 </template>
 
 <style scoped>
+main {
+  background-color: #fff;
+}
 
 </style>

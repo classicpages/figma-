@@ -35,8 +35,9 @@ function toggleMenu() {
 </script>
 
 <style scoped>
+
+
 header {
-  background-color: #333;
   padding: 10px 20px;
 }
 
@@ -45,12 +46,13 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 
 .site {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: #000;
   font-size: 20px;
   font-weight: 700;
 }
@@ -70,21 +72,26 @@ header {
   display: block;
   width: 25px;
   height: 3px;
-  background-color: #fff;
+  background-color: #000;
   margin: 4px 0;
 }
 
 .navbar-links {
   display: flex;
   align-items: center;
+  
+    
+
 }
 
 .nav-link {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   margin-left: 15px;
   font-weight: 400;
   font-size: 14px;
+  font-weight: 100;
+  font-size: 18px;
 }
 
 .search-container {
