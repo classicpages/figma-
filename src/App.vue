@@ -14,7 +14,8 @@ import HeroSection from '@/components/HeroSection.vue'
 
 <style scoped>
 main {
-  background-color: #fff;
+  background-color: rgb(248, 244, 238);
+  
 }
 
 </style>

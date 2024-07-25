@@ -30,7 +30,7 @@
 
 <style scoped>
 body {
-  background-color: #fff;
+  background-color: wheat;
 
 }
 
@@ -44,26 +44,31 @@ body {
   width: 100%;
   max-width: 420px;
   height: auto;
-  margin: 0 auto;
+  margin-right: 30px;
+  float: right;
 }
 
-.welcome {
-  margin: 80px 0 25px;
-}
 
 .fast {
-  font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
+  font-family: Poppins;
+  font-size: 100px;
   font-weight: 700;
+  line-height: 118.5px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  
   color: #FF7E00;
 }
 
 .food {
-  color: #000;
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
+  font-family: Poppins;
+  font-size: 52px;
   font-weight: 700;
+  line-height: 49.3px;
+  text-align: left;
 }
+
+
 
 .heel {
   font-family: 'Poppins', sans-serif;
@@ -110,7 +115,7 @@ body {
 
 .star {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   color: #000;
   margin-top: 10px;
 }
@@ -119,7 +124,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
   color: #000;
-  margin-top: 5px;
+  margin-top: 1
 }
 
 /* Media query for screen sizes less than 600px */
