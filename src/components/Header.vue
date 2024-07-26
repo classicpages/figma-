@@ -87,17 +87,15 @@ header {
 .nav-link {
   color: #000;
   text-decoration: none;
-  margin-left: 15px;
-  font-weight: 400;
-  font-size: 14px;
-  font-weight: 100;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 20px;
+  width: 90px;
 }
 
 .search-container {
-  margin-left: 20px;
+  margin-right: 200px;
+  
 }
-
 .search-container input {
   padding: 5px;
   border-radius: 4px;
@@ -118,7 +116,6 @@ header {
     display: flex;
   }
   .nav-link {
-    margin: 10px 0;
   }
   .search-container {
     width: 100%;

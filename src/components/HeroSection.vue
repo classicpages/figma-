@@ -1,53 +1,64 @@
 <template>
   <section class="hero-section">
-    <img class="img" src="/src/assets/17372 [Converted] 1.png" alt="">
-    <div class="welcome">
-      <h1><span class="fast">Fast</span> <span class="food">Food Delivery</span></h1>
-    </div>
-    <div class="heel">
-      <p>Sed ut perspiciatis unde omnis iste natus sit <br> voluptatem accusantium doloremque laudantium</p>
-    </div>
-    <div class="actions">
-      <button class="btn">Order Now</button>
-      <img src="/src/assets/Group 2.png" alt="Arrow Image" class="arrow-img">
-      <a class="watch" href="#">Watch Video</a>
-    </div>
-    <div class="star-rating">
-      <img src="/src/assets/emojione_star.png" alt="Star">
-      <img src="/src/assets/emojione_star.png" alt="Star">
-      <img src="/src/assets/emojione_star.png" alt="Star">
-      <img src="/src/assets/emojione_star.png" alt="Star">
-      <img src="/src/assets/emojione_star.png" alt="Star">
-      <p class="star">5 star rating</p>
-      <p class="stars">based on 1788 reviews</p>
+    <div class="content-wrapper">
+      <div class="content">
+        <div class="welcome">
+          <h1><span class="fast">Fast</span> <span class="food">Food Delivery</span></h1>
+        </div>
+        <div class="heel">
+          <p>Sed ut perspiciatis unde omnis iste natus sit <br> voluptatem accusantium doloremque laudantium</p>
+        </div>
+        <div class="actions">
+          <button class="btn">Order Now</button>
+          <img src="/src/assets/Group 2.png" alt="Arrow Image" class="arrow-img">
+          <a class="watch" href="#">Watch Video</a>
+        </div>
+        <div class="star-rating">
+          <img src="/src/assets/emojione_star.png" alt="Star">
+          <img src="/src/assets/emojione_star.png" alt="Star">
+          <img src="/src/assets/emojione_star.png" alt="Star">
+          <img src="/src/assets/emojione_star.png" alt="Star">
+          <img src="/src/assets/emojione_star.png" alt="Star">
+          <p class="star">5 star rating</p>
+          <p class="stars">based on 1788 reviews</p>
+        </div>
+      </div>
+      <img class="img" src="/src/assets/17372 [Converted] 1.png" alt="">
     </div>
   </section>
 </template>
-
 <script setup>
 // No script needed for this component
 </script>
 
 <style scoped>
-body {
-  background-color: wheat;
-
-}
 
 .hero-section {
   text-align:center;
   padding: 20px;
   max-width: 100%;
+  height:100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .img {
   width: 100%;
   max-width: 420px;
   height: auto;
-  margin-right: 30px;
-  float: right;
+  margin-right: 30px
 }
-
 
 .fast {
   font-family: Poppins;
@@ -75,13 +86,11 @@ body {
   font-size: 1rem;
   font-weight: 400;
   color: #909090;
-  margin: 20px 0;
 }
 
 .actions {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin: 20px 0;
 }
 
@@ -115,40 +124,18 @@ body {
 
 .star {
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   color: #000;
   margin-top: 10px;
+  margin-right: 410px;
 }
 
 .stars {
   font-size: 1rem;
   font-weight: 300;
-  color: #000;
-  margin-top: 1
+  color: grey;
+  margin-right: 410px;
 }
 
-/* Media query for screen sizes less than 600px */
-@media only screen and (max-width: 600px) {
-  .welcome h1 {
-    font-size: 1.5rem;
-  }
 
-  .fast {
-    font-size: 1.5rem;
-  }
-
-  .food {
-    font-size: 1.2rem;
-  }
-
-  .heel {
-    font-size: 0.875rem;
-    line-height: 1.5;
-  }
-
-  .btn {
-    padding: 10px 20px;
-  }
-}
 </style>
-
